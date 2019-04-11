@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProjForInterview.Models.Product>
+@using ProjForInterview.Models
+
+@{
+    ViewBag.Title = "GetProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetProduct</h2>
+@{Html.RenderAction("PartialProduct", "product"); }
+
+<table class="table" style="font-family : Arial" border="1">
+    <thead>Products</thead>
+    <tbody>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.ProductId)</th>
+            <th>Prodect Name</th>
+        </tr>
+        @foreach (Product prd in Model)
+        {
+            <tr>
+                <td>@prd.ProductId</td>
+                <td>@prd.ProductName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button id="btn1">Submit</button>
+
+@section scripts{
+    <script src="~/Scripts/MyJavaScript.js"></script>
+}

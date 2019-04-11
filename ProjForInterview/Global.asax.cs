@@ -16,6 +16,7 @@ namespace ProjForInterview
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+           // System.Web.Optimization.BundleTable.EnableOptimizations = true;//It will load one file for each script tag.
         }
     }
 }
