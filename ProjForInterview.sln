@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjForInterview", "ProjFor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjForInterview.Tests", "ProjForInterview.Tests\ProjForInterview.Tests.csproj", "{EC5B6DB9-60B0-4DD6-994C-6EC7E32CD668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqueryAjax", "JqueryAjax\JqueryAjax.csproj", "{224166E4-2A49-46F8-8E1F-68FB12BBBD8F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{EC5B6DB9-60B0-4DD6-994C-6EC7E32CD668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC5B6DB9-60B0-4DD6-994C-6EC7E32CD668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC5B6DB9-60B0-4DD6-994C-6EC7E32CD668}.Release|Any CPU.Build.0 = Release|Any CPU
-		{224166E4-2A49-46F8-8E1F-68FB12BBBD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{224166E4-2A49-46F8-8E1F-68FB12BBBD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{224166E4-2A49-46F8-8E1F-68FB12BBBD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{224166E4-2A49-46F8-8E1F-68FB12BBBD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

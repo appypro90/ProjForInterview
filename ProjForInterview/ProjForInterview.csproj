@@ -270,7 +270,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Product\GetProduct.cshtml" />
-    <Content Include="Views\Product\PartialProduct.cshtml" />
+    <Content Include="Views\Product\_ProductPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -33,8 +33,7 @@ namespace ProjForInterview.Controllers
         //It can be available only in this controller as it is not in shared folder.
         public ActionResult PartialProduct()
         {
-            ViewBag.Message = "This is from partial view page.";
-            return View();
+            return View("_ProductPartial");
         }
     }
 }

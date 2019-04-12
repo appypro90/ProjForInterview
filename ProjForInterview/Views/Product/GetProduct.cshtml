@@ -7,8 +7,8 @@
 }
 
 <h2>GetProduct</h2>
-@{Html.RenderAction("PartialProduct", "product"); }
-<a href="http://localhost:51664/MyFirstHtml.html">http://localhost:51664/MyFirstHtml.html</a>
+@Html.Partial("_ProductPartial", Model)
+
 <table class="table" style="font-family : Arial" border="1">
     <thead>Products</thead>
     <tbody>
